@@ -11,7 +11,7 @@ namespace Orleans.Hosting
     public static class LogStorageSiloBuilderExtensions
     {
         /// <summary>
-        /// Adds a log storage log consistency provider as default consistency provider"/>
+        /// Adds a log storage log consistency provider as default consistency provider
         /// </summary>
         public static ISiloHostBuilder AddLogStorageBasedLogConsistencyProviderAsDefault(this ISiloHostBuilder builder)
         {
@@ -19,7 +19,7 @@ namespace Orleans.Hosting
         }
 
         /// <summary>
-        /// Adds a log storage log consistency provider"/>
+        /// Adds a log storage log consistency provider
         /// </summary>
         public static ISiloHostBuilder AddLogStorageBasedLogConsistencyProvider(this ISiloHostBuilder builder, string name = "LogStorage")
         {
